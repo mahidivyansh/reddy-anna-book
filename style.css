@@ -1,0 +1,15 @@
+.btn{
+    animation: textColor 1s 0.5s infinite linear;
+}
+
+@keyframes textColor {
+    0%{
+        scale: 1.02;
+    }
+    50%{
+        scale: 1.08;
+    }
+    100%{
+        scale: 1.02;
+    }
+}
